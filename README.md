@@ -26,7 +26,7 @@ If you use this code for your research, please consider citing:
 | ωVQ<br>ωVS 	| 0.2<br>0.8 	| 0.876<br>0.931 	| 0.715<br>0.777 	| 0.854<br>0.927 |
 | ωVQ<br>ωVS 	| 0.1<br>0.9 	| 0.843<br>0.925 	| 0.672<br>0.766 	| 0.831<br>0.924 |
 
-All experiments are carried out on Google Colab on Mac OS and the detailed results are given in the paper.
+All experiments are carried out on Google Colab on Mac OS and the detailed results are given in the paper.<br>
 Two publicly perceptually encrypted image databases: 
 * IVC-SelectEncrypt; 
 * Perceptually Encrypted Image Database (PEID);
