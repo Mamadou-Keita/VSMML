@@ -5,7 +5,7 @@ If you use this code for your research, please consider citing:
 
 
 
-<table class="tg" style="display:flex; justify-content: center">
+<table class="tg" style="margin: auto">
 <thead>
   <tr>
     <th class="tg-7btt" rowspan="2"><br>Metrics</th>
