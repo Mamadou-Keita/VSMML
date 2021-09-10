@@ -1,12 +1,12 @@
 # Citation
 If you use this code for your research, please consider citing:
 # Visual Quality and Security Assessment of Perceptually Encrypted Images based on Multi-output Deep Neural Network
-In our paper, We propose a blind CNN-based VS metric for perceptually encrypted images called VSMML metric.<br> 
-Given an encrypted image, our metric predicts two scores simultaneously, which correspond to the VS and VQ scores, as illustrated in Figure below.
+In our paper, We propose a blind CNN-based VS metric for perceptually encrypted images called VSMML metric. Given an encrypted image, our metric predicts two scores simultaneously, which correspond to the VS and VQ scores, as illustrated in Figure below.
 ![assets/architecture.png](assets/architecture.png)
 
 #Experiments
 
+<!-- 
 |   Tasks  | lfz |      ROCC      |      KROCC     |      PLCC      |
 |:--------:|:---:|:--------------:|:--------------:|:--------------:|
 | VQ<br>VS |  0  | 0.897<br>0.930 | 0.744<br>0.777 | 0.873<br>0.930 |
@@ -25,7 +25,7 @@ Given an encrypted image, our metric predicts two scores simultaneously, which c
 | ωVQ<br>ωVS 	| 0.3<br>0.7 	| 0.901<br>0.932 	| 0.758<br>0.789 	| 0.907<br>0.941 |
 | ωVQ<br>ωVS 	| 0.2<br>0.8 	| 0.876<br>0.931 	| 0.715<br>0.777 	| 0.854<br>0.927 |
 | ωVQ<br>ωVS 	| 0.1<br>0.9 	| 0.843<br>0.925 	| 0.672<br>0.766 	| 0.831<br>0.924 |
-
+-->
 All experiments are carried out on Google Colab on Mac OS and the detailed results are given in the paper.<br>
 Two publicly perceptually encrypted image databases: 
 * IVC-SelectEncrypt; 
@@ -309,7 +309,7 @@ This table shows the performance comparison on IVC-SelectEncrypt and PEID datase
 </tbody>
 </table>
 
-
+#Usage
 
 
 
