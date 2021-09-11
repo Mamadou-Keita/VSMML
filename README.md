@@ -1,10 +1,9 @@
-# Citation
-If you use this code for your research, please consider citing:
-# Visual Quality and Security Assessment of Perceptually Encrypted Images based on Multi-output Deep Neural Network
-In our paper, We propose a blind CNN-based VS metric for perceptually encrypted images called VSMML metric. Given an encrypted image, our metric predicts two scores simultaneously, which correspond to the VS and VQ scores, as illustrated in Figure below.
+# Visual Quality and Security Assessment of Perceptually Encrypted Images based on Multi-output Deep Neural Network (VSMML)
+In our paper, We propose a blind CNN-based VS metric for perceptually encrypted images called VSMML metric. Given an encrypted image, our metric predicts two scores simultaneously, which correspond to the VS and VQ scores, as illustrated in Figure below.<br>
+
 ![assets/architecture.png](assets/architecture.png)
 
-#Experiments
+# Experiments
 
 <!-- 
 |   Tasks  | lfz |      ROCC      |      KROCC     |      PLCC      |
@@ -309,9 +308,27 @@ This table shows the performance comparison on IVC-SelectEncrypt and PEID datase
 </tbody>
 </table>
 
-#Usage
+# Usage
 
+* Training<br>
+  To train the model on another database, refer to the file `train.ipynb` 
+* Evaluation<br>
+  To evaluate the performance of our model, please refer to the file `test.ipynb` 
+  
+# Pretrained models
+We have trained our models on 80% of our datasets and you can find them in `./models`
 
+# Citation
+```
+@inproceedings{fezza2021visual,
+  title={Visual Quality and Security Assessment of Perceptually Encrypted Images Based on Multi-Output Deep Neural Network},
+  author={Fezza, Sid Ahmed and Keita, Mamadou and Hamidouche, Wassim},
+  booktitle={2021 9th European Workshop on Visual Information Processing (EUVIP)},
+  pages={1--6},
+  year={2021},
+  organization={IEEE}
+}
+```
 
 
 
