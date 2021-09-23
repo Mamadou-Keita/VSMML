@@ -311,9 +311,9 @@ This table shows the performance comparison on IVC-SelectEncrypt and PEID datase
 # Usage
 
 * Training<br>
-  To train the model on another database, refer to the file `train.ipynb` 
+  To train the model on another database, refer to the file `TRAIN_ON_PEID.ipynb` or `TRAIN_ON_IVC.ipynb` 
 * Evaluation<br>
-  To evaluate the performance of our model, please refer to the file `test.ipynb` 
+  To evaluate the performance of our model, please refer to the file `Test_ON_PEID.ipynb` or `Test_ON_IVC.ipynb`
   
 # Pretrained models
 We have trained our models on 80% of our datasets and you can find them in `./models`
