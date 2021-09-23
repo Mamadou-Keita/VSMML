@@ -1,5 +1,5 @@
 # Visual Quality and Security Assessment of Perceptually Encrypted Images based on Multi-output Deep Neural Network (VSMML)
-In our paper, We propose a blind CNN-based VS metric for perceptually encrypted images called VSMML metric. Given an encrypted image, our metric predicts two scores simultaneously, which correspond to the VS and VQ scores, as illustrated in Figure below.<br>
+In this work, we propose a blind CNN-based visual security metric for perceptually encrypted images called VSMML metric. Given an encrypted image, our metric predicts two scores simultaneously, which correspond to the visual security (VS) and visual quality (VQ) scores, as illustrated in Figure below.<br>
 
 ![assets/architecture.png](assets/architecture.png)
 
@@ -316,7 +316,7 @@ This table shows the performance comparison on IVC-SelectEncrypt and PEID datase
   To evaluate the performance of our model, please refer to the file `Test_ON_PEID.ipynb` or `Test_ON_IVC.ipynb`
   
 # Pretrained models
-We have trained our models on 80% of our datasets and you can find them in `./models`
+We have trained our models on 80% of datasets and you can find them in `./models`
 
 # Citation
 ```
