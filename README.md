@@ -26,10 +26,10 @@ In this work, we propose a blind CNN-based visual security metric for perceptual
 | ωVQ<br>ωVS 	| 0.1<br>0.9 	| 0.843<br>0.925 	| 0.672<br>0.766 	| 0.831<br>0.924 |
 -->
 All experiments are carried out on Google Colab on Mac OS and the detailed results are given in the paper.<br>
-Two publicly perceptually encrypted image databases: 
+Two publicly perceptually encrypted image databases are used in our experiments: 
 * IVC-SelectEncrypt; 
 * Perceptually Encrypted Image Database (PEID);<br>
-are used in our experiments
+
 
 This table shows the performance comparison on IVC-SelectEncrypt and PEID datasets with visual quality (VQ) and visual security (VS) scores. 
 <table class="tg" style="margin: auto">
@@ -310,9 +310,9 @@ This table shows the performance comparison on IVC-SelectEncrypt and PEID datase
 
 # Usage
 
-* Training<br>
+* Training:<br>
   To train the model on another database, refer to the file `TRAIN_ON_PEID.ipynb` or `TRAIN_ON_IVC.ipynb` 
-* Evaluation<br>
+* Evaluation:<br>
   To evaluate the performance of our model, please refer to the file `Test_ON_PEID.ipynb` or `Test_ON_IVC.ipynb`
   
 # Pretrained models
